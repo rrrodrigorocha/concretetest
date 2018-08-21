@@ -6,8 +6,6 @@ node('master') {
             sh '''#!/bin/bash
 
                 echo 'Funciona'
-
-            done '''
         }
     }
 }
