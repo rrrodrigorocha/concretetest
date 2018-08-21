@@ -2,7 +2,7 @@ node('master') {
 
     ansiColor('xterm') {
         
-        stage ('Testando') {
+        stage('Testando') {
             sh '''#!bin/bash
 
                 echo 'Funciona'
