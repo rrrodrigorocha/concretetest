@@ -5,7 +5,8 @@ ansiColor('xterm') {
 stage 'Testando'
     sh '''#!bin/bash
 
-    echo 'Funciona'
-    done '''
+        echo 'Funciona'
+        
+    done'''
 }
 }
