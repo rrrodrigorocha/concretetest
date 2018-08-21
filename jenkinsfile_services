@@ -1,9 +1,9 @@
-node("master") {
+node('master') {
 
-    ansiColor("xterm") {
+    ansiColor('xterm') {
         
-        stage("Testando") {
-            sh '''#!bin/bash
+        stage('Testando') {
+            sh '''#!/bin/bash
 
                 echo 'Funciona'
 
