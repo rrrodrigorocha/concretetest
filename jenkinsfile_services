@@ -1,12 +1,13 @@
 node('master') {
 
-ansiColor('xterm') {
-    
-stage 'Testando'
-    sh '''#!bin/bash
-
-        echo 'Funciona'
+    ansiColor('xterm') {
         
-    done'''
-}
+        stage ('Testando') {
+            sh '''#!bin/bash
+
+                echo 'Funciona'
+
+            done'''
+        }
+    }
 }
