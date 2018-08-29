@@ -5,7 +5,7 @@ ansiColor('xterm') {
 stage('Testando') {
     sh '''#!/bin/bash
 
-        docker run hello-world
+        ssh -tt rodrigo@10.200.11.156 docker run hello-world
 
     '''
 }
