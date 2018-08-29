@@ -5,7 +5,7 @@ ansiColor('xterm') {
 stage('Testando') {
     sh '''#!/bin/bash
 
-        sudo docker run hello-world
+        docker run hello-world
 
     '''
 }
